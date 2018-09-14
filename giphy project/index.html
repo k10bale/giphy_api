@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Giphy API</title>
+
+<link href="style.css" rel="stylehseet">
+<link href="https://fonts.googleapis.com/css?family=Margarine" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" >
+
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+</head>
+<body class="container" style="background-color: rgb(253, 204, 211);">
+
+<h1 style="padding:20px; text-align: center; font-family: 'Margarine', cursive; ">Dog Breed <i class="em em-dog"></i> Giphy Search!</h1>
+<div id=buttons-view>
+        <input type="button" class="btn btn-light">
+</div>
+<form id="search-form" style="text-align:center; padding:20px;">
+    <label for="gif-input" style="padding:20px; font-size: 20px; font-family: 'Margarine', cursive;">Search for a <i class="em em-dog2"></i> gif
+    <input type="text" id="gif-input" style="border-radius: 2px;">
+    <input class="btn btn-primary" id="find-gif" type="submit" value="Search">
+    </label>
+    </form>
+      <div id="gifs-view">
+          <img id="here-is-gif">
+      </div>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="logic.js"></script>
+</body>
+</html>
